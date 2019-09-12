@@ -4,12 +4,13 @@
 
 
 class Login(object):
-    def welcome():
+    def __init__(self):
         pass
+
+    def welcome(self):
+        return '欢迎光临！'
 
 
 if __name__ == '__main':
     login = Login()
-    login.run()
-
-
+    login.welcome()
